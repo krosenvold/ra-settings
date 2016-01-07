@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="splitsab" type="PLAIN_TEXT" />
+      <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="frank" type="PLAIN_TEXT" />
+      <mapping pattern="TestJmsMessage.java" type="PLAIN_TEXT" />
+      <mapping pattern="payload" type="PLAIN_TEXT" />
+      <mapping pattern="TestRestService,groovy" type="PLAIN_TEXT" />
+      <mapping pattern="foo" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping ext="bsh" type="PLAIN_TEXT" />
+      <mapping ext="jks" type="PLAIN_TEXT" />
+      <mapping ext="sparql" type="PLAIN_TEXT" />
+      <mapping ext="ttl" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

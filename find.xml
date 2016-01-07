@@ -1,0 +1,32 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Project and Libraries" />
+    <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <recentFileMasks>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.mdo</mask>
+      <mask>*.java</mask>
+      <mask>*:properties</mask>
+      <mask>*.properties</mask>
+      <mask>*.feature</mask>
+      <mask>*.tt</mask>
+      <mask>*.*</mask>
+      <mask>*Resource.java</mask>
+      <mask>*JerseyIT.java</mask>
+      <mask>build.gradl</mask>
+      <mask>*.gradle</mask>
+      <mask>*.ttl</mask>
+      <mask>pom.xml</mask>
+      <mask>build.gradle</mask>
+    </recentFileMasks>
+  </component>
+</application>
