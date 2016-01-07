@@ -1,22 +1,10 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="REFORMAT_ON_PASTE" value="4" />
     <option name="USE_INSTANCEOF_ON_EQUALS_PARAMETER" value="true" />
-    <EXCLUDED_PACKAGE NAME="com.google.common.base.Optional" />
-    <EXCLUDED_PACKAGE NAME="com.sun.deploy.Environment" />
-    <EXCLUDED_PACKAGE NAME="com.sun.tools.internal.ws.wsdl.parser.Util.fail" />
-    <EXCLUDED_PACKAGE NAME="javax.print" />
-    <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.ir.ObjectNode" />
-    <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.ir.annotations.Ignore" />
-    <EXCLUDED_PACKAGE NAME="junit.framework.Assert" />
-    <EXCLUDED_PACKAGE NAME="junit.framework.Assert.assertEquals" />
-    <EXCLUDED_PACKAGE NAME="junit.framework.TestCase" />
-    <EXCLUDED_PACKAGE NAME="org.elasticsearch.common.joda.time.DateTime" />
-    <EXCLUDED_PACKAGE NAME="org.elasticsearch.search.aggregations.support.format.ValueFormatter.DateTime" />
-    <EXCLUDED_PACKAGE NAME="org.elasticsearch.search.aggregations.support.format.ValueParser.DateTime" />
-    <EXCLUDED_PACKAGE NAME="org.elasticsearch.search.aggregations.support.numeric.ValueFormatter.DateTime" />
-    <EXCLUDED_PACKAGE NAME="org.elasticsearch.search.aggregations.support.numeric.ValueParser.DateTime" />
-    <EXCLUDED_PACKAGE NAME="org.omg.CORBA.Environment" />
-    <EXCLUDED_PACKAGE NAME="sun.tools.java.Environment" />
+    <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="junit.framework" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
