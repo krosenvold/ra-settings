@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:application:bootstrap)" />
+      <problem id="library-invalid-classes-path(library:application:jquery)" />
+      <problem id="library-invalid-classes-path(library:application:Node.js v0.10.2 Core Modules)" />
+    </ignored-problems>
+  </component>
+</application>
+

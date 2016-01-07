@@ -1,27 +1,55 @@
 <application>
-  <component name="AppInspectionProfilesVisibleTreeState">
-    <entry key="Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="CodeStyleSchemes">
-    <option name="CURRENT_SCHEME_NAME" value="Default" />
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="8080" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="10" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
   </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
     <option name="FORCE_CLASSIC_VM" value="true" />
-    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <option name="SKIP_SYNTHETIC_METHODS" value="true" />
     <option name="SKIP_CLASSLOADERS" value="true" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
@@ -72,7 +100,8 @@
     </filter>
   </component>
   <component name="DependencyUISettings">
-    <option name="SCOPE_TYPE" value="file" />
+    <option name="UI_FLATTEN_PACKAGES" value="false" />
+    <option name="UI_SHOW_MODULES" value="false" />
   </component>
   <component name="Error Report Configurable">
     <option name="JIRA_LOGIN" value="" />
@@ -85,42 +114,92 @@
     <option name="KEEP_ITN_PASSWORD" value="false" />
     <option name="EMAIL" value="" />
   </component>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://gluon.nrk.no/gluon3_1/gluon3_1.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea15/extResources/f6c23874_gluon3_1.xsd" />
-    <resource url="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea15/extResources/e87deeab_xmldsig-core-schema.xsd" />
-  </component>
-  <component name="NodeLocalInterpreterManager">
-    <node-interpreter path="/usr/local/bin/node" version="5.1.0" last-modified="1447998803000" />
-    <node-interpreter path="/usr/local/Cellar/node/5.1.0/bin/node" version="5.1.0" last-modified="1447998803000" />
-    <node-interpreter path="/usr/local/Cellar/node/0.12.0/bin/node" version="0.12.0" last-modified="1423655011000" />
-  </component>
   <component name="PropertiesSeparatorManager">
-    <file url="resourceBundle:jar:///Users/n06788/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-core/2.0.6/b662a840a55f2556a7a5f61dea9e88452cda8d2a/axon-core-2.0.6.jar!/META-INF/spring" separator="\u002f" />
-    <file url="resourceBundle:jar:///Users/n06788/.gradle/caches/modules-2/files-2.1/org.axonframework/axon-core/2.0.6/2d88ae37391aea4003523c33330ee3eed2cee842/axon-core-2.0.6-sources.jar!/META-INF/spring" separator="\u002f" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/soknad_nn.properties" separator="\u005f" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/glemtPassord" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadmin-modul/jmsBridge/jmsBridge/src/test/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/test/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/glemtPassord.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/introduksjon_en.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endreBruker" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/endreBruker" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/vurderingsskjema/vurderingsskjema-deployconfig/miljo/nkr/integrasjon-vurderingsskjema.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/vurderingsskjema/vurderingsskjema-deployconfig/miljo/nkr/domain.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/referanse/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/referanse/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/dbscripts/forport/liquibase-dev.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/localhost/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endreBruker.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/soknad_no.properties" separator="\u005f" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/base/src/main/resources/Constants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/glemtPassord_en.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/soknad.properties" separator="\u005f" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-prod/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/soknadsliste" separator="\u005f" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-prod/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-prod/ePort/domain.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-utv/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/core-modul/base/src/main/resources/exception" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-utv/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/felles/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/dev23/databases.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/test/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/migrering/src/main/assembly/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/div/src/main/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/utv/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr/databases.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/soknadsliste" separator="\u005f" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endrePassord" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadmin-modul/webservices/src/test/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-indre-deployconfig/nkr/orgreg-app.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/target/classes/localhost/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/target/classes/localhost/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/endrePassord.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/soknad" separator="\u005f" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/target/classes/nkr-prod/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/target/classes/felles/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/common/src/test/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/target/classes/nkr/eAdmin/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-ytre-deployconfig/nkr/domain.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/glemtPassord.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/endreBruker.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-ytre-deployconfig/nkr-prod/orgreg-app.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-ytre-deployconfig/nkr-prod/domain.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/nkr-prod/ePort/deploy.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/migreringForissOrgreg/src/main/assembly/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-indre-deployconfig/felles/meldinger-orgreg.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/i18n/endreBruker_en.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/eVurdering/evurdering/evurdering-web/src/main/resources/meldinger-evurdering" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-ytre-deployconfig/nkr/orgreg-app.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/localhost/ePort/LocalConstants.properties" separator="\u002e" />
+    <file url="resourceBundle:file:///Users/ovstetun/Customers/Kulturradet/kode/eVurdering/vurderingsskjema/vurderingsskjema-web/src/main/resources/hjelp-vurderingsskjema" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endrePassord.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eadministrasjon-modul/eAdministrasjonWeb/src/main/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endreBruker_en.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/eport-modul/mittNettstedWeb/src/main/resources/i18n/endrePassord_en.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/base/src/test/resources/LocalConstants.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/eVurdering/orgreg/orgreg-indre-deployconfig/nkr/domain.properties" separator="\u002e" />
+    <file url="file://$USER_HOME$/Customers/Kulturradet/kode/esak/core-modul/deploy/properties/test/eAdmin/LocalConstants.properties" separator="\u002e" />
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_METHOD" value="false" />
-    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_FIELD" value="false" />
-    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_CLASS" value="false" />
     <option name="RENAME_SEARCH_FOR_TEXT_FOR_METHOD" value="false" />
-    <option name="RENAME_SEARCH_FOR_TEXT_FOR_VARIABLE" value="false" />
     <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="MOVE_SEARCH_IN_COMMENTS" value="false" />
     <option name="MOVE_SEARCH_FOR_TEXT" value="false" />
     <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
     <option name="INTRODUCE_PARAMETER_REPLACE_FIELDS_WITH_GETTERS" value="1" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
-    <option name="INLINE_SUPER_CLASS_THIS" value="true" />
-    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
-    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
     <option name="INTRODUCE_PARAMETER_CREATE_FINALS" value="false" />
-    <option name="RENAME_INHERITORS" value="false" />
-    <option name="RENAME_VARIABLES" value="false" />
-    <option name="RENAME_TESTS" value="false" />
   </component>
   <component name="SelectProjectTemplateSettings">
-    <option name="LAST_TEMPLATE" value="Java/Java" />
+    <option name="EXPERT_MODE" value="true" />
+    <option name="LAST_TEMPLATE" value="Java/Java Module" />
   </component>
   <component name="SystemNotifications">
     <option name="NOTIFICATIONS">
@@ -132,10 +211,7 @@
       </set>
     </option>
   </component>
-  <component name="VcsApplicationSettings" PATCH_STORAGE_LOCATION="$USER_HOME$/Downloads">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Downloads" />
-  </component>
-  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" PathToXmlBeans="$USER_HOME$/Library/Caches/IntelliJIdea11/webservices/xmlbeans-2.3.0" ASK_TO_INSTALL_SOAPUI="true" />
+  <component name="WebServicesPluginSettings" WebServicesUrlPathPrefix="/services" ASK_TO_INSTALL_SOAPUI="true" />
   <component name="XPathView.XPathViewPlugin">
     <option name="attributes">
       <TextAttributes />
@@ -166,8 +242,9 @@
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
   <component name="com.intellij.javaee.ExternalResourceManagerImpl">
-    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
+    <resource url="http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea13/extResources/fdbcb8f6_dbchangelog-2.0.xsd" />
     <ignored-resource url="urn:idea:xslt-plugin#extensions" />
+    <ignored-resource url="http://relaxng.org/ns/compatibility/annotations/1.0" />
     <ignored-resource url="http://exslt.org/dates-and-times" />
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://exslt.org/math" />
@@ -176,7 +253,6 @@
     <ignored-resource url="http://exslt.org/strings" />
     <ignored-resource url="http://exslt.org/sets" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Ignore spaces" />
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" COMPARISON_POLICY="Default" />
 </application>
